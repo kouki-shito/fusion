@@ -43,6 +43,10 @@ jobs:
       - name: install Pods
         run: bundle exec pod install
 
+      - run: |
+          cd fusion/fusion
+          touch GoogleService-Info.plist
+
       - name: Decode GoogleService-Info.plist
         run: |
           echo ${{ secrets.GOOGLE_SERVICE_INFO_PLIST_CONTENT }} | base64 -o ${{ env.GOOGLE_SERVICE_INFO_PLIST_PATH }} -D
