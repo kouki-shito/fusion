@@ -154,6 +154,7 @@ PODS:
   - PromisesObjC (2.4.0)
   - PromisesSwift (2.4.0):
     - PromisesObjC (= 2.4.0)
+  - R.swift (7.8.0)
   - RecaptchaInterop (100.0.0)
   - RxBlocking (6.8.0):
     - RxSwift (= 6.8.0)
@@ -177,6 +178,7 @@ DEPENDENCIES:
   - FirebaseMessaging (= 11.6.0)
   - FirebasePerformance (= 11.6.0)
   - FirebaseStorage (= 11.6.0)
+  - R.swift
   - RxBlocking
   - RxCocoa
   - RxSwift
@@ -217,6 +219,7 @@ SPEC REPOS:
     - nanopb
     - PromisesObjC
     - PromisesSwift
+    - R.swift
     - RecaptchaInterop
     - RxBlocking
     - RxCocoa
@@ -269,6 +272,7 @@ SPEC CHECKSUMS:
   nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
+  R.swift: f573269ca45b2ab066c082e363dd4c2b297b0d71
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
   RxBlocking: a8b634fba6850913bc3df40bb73fd08b2dbf0f01
   RxCocoa: 2d33c1e1e5d66492052ad46b11024ae287572880
@@ -277,6 +281,6 @@ SPEC CHECKSUMS:
   RxTest: d0fa1ec82feb41efa826a59173ec65eafbbe4aaf
   SwiftLint: 92196976e597b9afec5dbe374810103e6c1d9d7c
 
-PODFILE CHECKSUM: 4ff22457fcd17549e09f991661da3b0cb0ec0aa6
+PODFILE CHECKSUM: b5ababb246db50dbd0e1bc782a20baf4cb354f0e
 
 COCOAPODS: 1.16.2
