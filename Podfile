@@ -13,6 +13,7 @@ target 'fusion' do
   pod 'SwiftLint'
   pod 'RxBlocking'
   pod 'RxTest'
+  pod 'R.swift'
   pod 'FirebaseCore','11.6.0'
   pod 'FirebaseAuth','11.6.0'
   pod 'FirebaseAppDistribution','11.6.0-beta'

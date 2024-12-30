@@ -10,7 +10,7 @@ workspace("fusion.xcworkspace")
 
 scheme("fusion")
 
-device("iPhone 14")
+device("iPhone 15")
 
 clean(true)
 
