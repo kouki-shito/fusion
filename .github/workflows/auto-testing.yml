@@ -9,7 +9,7 @@ on:
 
 env:
   DEVELOPER_DIR: /Applications/Xcode_15.3.app
-  GOOGLE_SERVICE_INFO_PLIST_PATH: fusion/GoogleService-Info.plist
+  GOOGLE_SERVICE_INFO_PLIST_PATH: fusion/fusion/GoogleService-Info.plist
 
 jobs:
   testing:
@@ -32,6 +32,13 @@ jobs:
         run: |
           bundle config path vendor/bundle
           bundle install
+
+      - uses: actions/cache@v4
+        with:
+          path: Pods
+          key: ${{ runner.os }}-pods-${{ hashFiles('**/Podfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-pods-
 
       - name: install Pods
         run: bundle exec pod install
