@@ -16,8 +16,6 @@ jobs:
         run: bundle install
       - name: install Pods
         run: bundle exec pod install
-      - env:
-          APPLE_ID: ${{ secrets.APPLE_ID}}
       - name: fastlane
         run: bundle exec fastlane test
 
