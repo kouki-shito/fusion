@@ -25,6 +25,7 @@
 		1E6E45CC2D21A14000FEC23B /* LoginRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E45C32D21A14000FEC23B /* LoginRegister.storyboard */; };
 		1E6E45CD2D21A14000FEC23B /* LoginRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E45C32D21A14000FEC23B /* LoginRegister.storyboard */; };
 		1E6E45D32D21A35C00FEC23B /* fusionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E45D22D21A35C00FEC23B /* fusionTests.swift */; };
+		1E6E45DA2D237DBE00FEC23B /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E45D92D237DBE00FEC23B /* R.generated.swift */; };
 		3A45E1FB8BF5D0D53E96FD56 /* Pods_fusionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34104C198DE5A27F1CBF85CB /* Pods_fusionTests.framework */; };
 		908BCB1B717E1AD031A1A076 /* Pods_fusion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEE3878F12B9BEF4FDCDF2D /* Pods_fusion.framework */; };
 		A3C1B34A56B8721D3D39086F /* Pods_fusion_fusionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D49EA20AB4EA123FB41A9B4 /* Pods_fusion_fusionUITests.framework */; };
@@ -71,6 +72,7 @@
 		1E6E45C52D21A14000FEC23B /* LoginRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterViewController.swift; sourceTree = "<group>"; };
 		1E6E45C62D21A14000FEC23B /* LoginRegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterViewModel.swift; sourceTree = "<group>"; };
 		1E6E45D22D21A35C00FEC23B /* fusionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fusionTests.swift; sourceTree = "<group>"; };
+		1E6E45D92D237DBE00FEC23B /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		2BEE3878F12B9BEF4FDCDF2D /* Pods_fusion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fusion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E17A59E098F4AAFFBB1A787 /* Pods-fusionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fusionTests.debug.xcconfig"; path = "Target Support Files/Pods-fusionTests/Pods-fusionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2F11F635BFEEF4AB83870826 /* Pods-fusion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fusion.release.xcconfig"; path = "Target Support Files/Pods-fusion/Pods-fusion.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				1E6E45572D21395000FEC23B /* LaunchScreen.storyboard */,
 				1E6E455A2D21395000FEC23B /* Info.plist */,
 				1E6E45B12D2197B500FEC23B /* GoogleService-Info.plist */,
+				1E6E45D92D237DBE00FEC23B /* R.generated.swift */,
 			);
 			path = fusion;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 		1E6E45952D21688300FEC23B /* AppModels */ = {
 			isa = PBXGroup;
 			children = (
+				1E6E45D42D236A0500FEC23B /* CustomClasses */,
 				1E6E45962D2168B100FEC23B /* Firebase */,
 			);
 			path = AppModels;
@@ -345,6 +349,21 @@
 			path = NewPostModal;
 			sourceTree = "<group>";
 		};
+		1E6E45D42D236A0500FEC23B /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E45D52D236A1300FEC23B /* Buttons */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		1E6E45D52D236A1300FEC23B /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		96F477689BBA7DDD38839C75 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,6 +397,7 @@
 			buildConfigurationList = 1E6E45732D21395000FEC23B /* Build configuration list for PBXNativeTarget "fusion" */;
 			buildPhases = (
 				4336FE79B08FC3ED4F09D608 /* [CP] Check Pods Manifest.lock */,
+				1E6E45D82D237ACE00FEC23B /* R.swift */,
 				1E6E45452D21394E00FEC23B /* Sources */,
 				1E6E45462D21394E00FEC23B /* Frameworks */,
 				1E6E45472D21394E00FEC23B /* Resources */,
@@ -544,6 +564,26 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n  \"${PODS_ROOT}/SwiftLint/swiftlint\"\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
+		1E6E45D82D237ACE00FEC23B /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
 		4336FE79B08FC3ED4F09D608 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -670,6 +710,7 @@
 			files = (
 				1E6E458C2D2167EB00FEC23B /* Storyboarded.swift in Sources */,
 				1E6E45C82D21A14000FEC23B /* LoginRegisterViewCoordinator.swift in Sources */,
+				1E6E45DA2D237DBE00FEC23B /* R.generated.swift in Sources */,
 				1E6E45C92D21A14000FEC23B /* LoginRegisterViewController.swift in Sources */,
 				1E6E45CA2D21A14000FEC23B /* LoginRegisterViewModel.swift in Sources */,
 				1E6E458D2D2167EB00FEC23B /* AppDelegate.swift in Sources */,

@@ -38,6 +38,8 @@ Carthage/Build/
 Dependencies/
 .accio/
 
+R.generated.swift
+
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
