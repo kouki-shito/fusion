@@ -17,35 +17,41 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="A5g-qG-QOX">
-                                <rect key="frame" x="40" y="247.33333333333334" width="313" height="357.66666666666663"/>
+                                <rect key="frame" x="32" y="237.66666666666663" width="329" height="377"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ij-DK-4Or">
-                                        <rect key="frame" x="0.0" y="0.0" width="313" height="20.333333333333332"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="329" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="18c-5z-XYE">
-                                        <rect key="frame" x="0.0" y="68.333333333333357" width="313" height="156.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="68.333333333333357" width="329" height="184.66666666666663"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GZy-PP-bOW">
-                                                <rect key="frame" x="0.0" y="0.0" width="313" height="34"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="329" height="48"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="DvB-66-gzW"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dgc-pR-lyB">
-                                                <rect key="frame" x="0.0" y="50" width="313" height="34"/>
+                                                <rect key="frame" x="0.0" y="64" width="329" height="48"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="DrC-Ez-SUd"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4A-BB-Yw4">
-                                                <rect key="frame" x="0.0" y="100" width="313" height="20.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="127.99999999999999" width="329" height="20.333333333333329"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pMH-jM-wzK">
-                                                <rect key="frame" x="0.0" y="136.33333333333331" width="313" height="20.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="164.33333333333331" width="329" height="20.333333333333343"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -53,17 +59,17 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="5og-3r-ucm">
-                                        <rect key="frame" x="0.0" y="273" width="313" height="84.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="301" width="329" height="76"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DVS-KO-Bjj">
-                                                <rect key="frame" x="0.0" y="0.0" width="313" height="34.333333333333336"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="329" height="30"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ERB-oZ-Z9f">
-                                                <rect key="frame" x="0.0" y="50.333333333333258" width="313" height="34.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="46" width="329" height="30"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -74,25 +80,26 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="A5g-qG-QOX" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="AoI-4K-59W"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="A5g-qG-QOX" secondAttribute="trailing" constant="40" id="AsB-bd-BFo"/>
-                            <constraint firstItem="A5g-qG-QOX" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="UrV-1U-9b0"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="A5g-qG-QOX" secondAttribute="trailing" constant="32" id="AsB-bd-BFo"/>
+                            <constraint firstItem="A5g-qG-QOX" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="UrV-1U-9b0"/>
                             <constraint firstItem="A5g-qG-QOX" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="i7m-7j-htS"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="enterMailForm" destination="GZy-PP-bOW" id="U8h-E0-xRs"/>
+                        <outlet property="enterPasswordForm" destination="dgc-pR-lyB" id="wTV-bD-c3z"/>
+                        <outlet property="errorDescriptionLabel" destination="pMH-jM-wzK" id="7Xt-nq-KGJ"/>
+                        <outlet property="forgetPasswordLabel" destination="L4A-BB-Yw4" id="Q09-vN-skO"/>
+                        <outlet property="loginButton" destination="DVS-KO-Bjj" id="d01-r5-g3M"/>
+                        <outlet property="titleLabel" destination="1Ij-DK-4Or" id="DI6-6w-UkB"/>
+                        <outlet property="toRegisterViewButton" destination="ERB-oZ-Z9f" id="XTs-Cu-nQO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-378" y="19"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="DVS-KO-Bjj">
-            <size key="intrinsicContentSize" width="75" height="34.333333333333336"/>
-        </designable>
-        <designable name="ERB-oZ-Z9f">
-            <size key="intrinsicContentSize" width="75" height="34.333333333333336"/>
-        </designable>
-    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

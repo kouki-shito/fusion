@@ -14,6 +14,7 @@ target 'fusion' do
   pod 'RxBlocking'
   pod 'RxTest'
   pod 'R.swift'
+  pod 'Then'
   pod 'FirebaseCore','11.6.0'
   pod 'FirebaseAuth','11.6.0'
   pod 'FirebaseAppDistribution','11.6.0-beta'

@@ -167,6 +167,7 @@ PODS:
   - RxTest (6.8.0):
     - RxSwift (= 6.8.0)
   - SwiftLint (0.57.1)
+  - Then (3.0.0)
 
 DEPENDENCIES:
   - FirebaseAppDistribution (= 11.6.0-beta)
@@ -184,6 +185,7 @@ DEPENDENCIES:
   - RxSwift
   - RxTest
   - SwiftLint
+  - Then
 
 SPEC REPOS:
   trunk:
@@ -227,6 +229,7 @@ SPEC REPOS:
     - RxSwift
     - RxTest
     - SwiftLint
+    - Then
 
 EXTERNAL SOURCES:
   FirebaseFirestore:
@@ -280,7 +283,8 @@ SPEC CHECKSUMS:
   RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
   RxTest: d0fa1ec82feb41efa826a59173ec65eafbbe4aaf
   SwiftLint: 92196976e597b9afec5dbe374810103e6c1d9d7c
+  Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
 
-PODFILE CHECKSUM: b5ababb246db50dbd0e1bc782a20baf4cb354f0e
+PODFILE CHECKSUM: 6303f0d0a0fb6ecb2968dcf04a77c30f4471fefa
 
 COCOAPODS: 1.16.2

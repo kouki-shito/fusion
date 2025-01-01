@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  fusion
+
+  Created by 市東 on 2024/12/31.
+  
+*/
+// ex) "ViewName_variableName_description" = "String..."
+
+// MARK: - LocaleKeys
+"local_key" = "ja";
+
+// MARK: - LoginRegisterView
+"loginRegister_titleLabel_text" = "世界とコラボを始めよう。";
+"loginRegister_enterMailForm_placeholder" = "メールアドレス";
+"loginRegister_enterPasswordForm_placeholder" = "パスワード";
+"loginRegister_forgetPasswordLabel_text" = "パスワードをお忘れの場合";
+"loginRegister_errorDescriptionLabel_text_inputMiss" = "メールアドレス又はパスワードに誤りがあります";
+"loginRegister_errorDescriptionLabel_text_notEnough" = "入力が不足しています";
+"loginRegister_loginButton_text" = "ログイン";
+"loginRegister_toRegisterViewButton_text" = "新規登録";
+
